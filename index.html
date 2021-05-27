@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <main> 
+        <section>
+            <h1>Conversor de Caracteres</h1>
+            <p>Cole o seu texto abaixo, selecione as opções para a substituição e clique em converter.</p>
+        </section>
+        <section id="principal">
+            <div>
+                <p>Digite o texto:</p>
+                <textarea class="text_box"></textarea>
+            </div>
+            <section id="select">
+                <div id="firstSelect">
+                    <p>Subtituir:</p>
+                    <select class="caracters" name="caracters">
+                        <option value=",">,</option>
+                        <option value="-">-</option>
+                        <option value=".">.</option>
+                        <option value=" ">" " (espaço)</option>
+                    </select>
+                </div>
+                <div id="secondSelect">
+                    <p>Por:</p>
+                    <select class="caracters" name="caracters">
+                        <option value=",">,</option>
+                        <option value="-">-</option>
+                        <option value=".">.</option>    
+                        <option value=" ">" " (espaço)</option>
+                    </select>
+                </div>
+            </section>
+            <button>Converter</button>
+        </section>      
+    </main>
+    <script src="script.js"></script>   
+</body>
+</html>
+
