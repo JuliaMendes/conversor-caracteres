@@ -15,7 +15,7 @@ opcionselect[1].addEventListener('change', getSelectIndexOne)
 function getText(){
     valueText = text.value
 
-    ChangeText()
+    changeText()
 }
 
 function getSelectIndexZero(){
@@ -26,6 +26,6 @@ function getSelectIndexOne(){
     per = opcionselect[1].value
 }
 
-function ChangeText(){
+function changeText(){
     text.value = valueText.replaceAll(toReplace, per)
 }
